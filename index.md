@@ -20,6 +20,7 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 
 Further details of these algorithms will be published in two upcoming journal papers, and in my upcoming thesis.
 
+
 # Publications
 
 * A. Moore, L. Lightburn, W. Xue, P. Naylor, and M. Brookes, [Binaural mask informed speech enhancement for hearing aids with head tracking](https://ieeexplore.ieee.org/document/8521361), in *Proc. Intl Wkshp Acoustic Signal Enhancement*, Tokyo, 2018
