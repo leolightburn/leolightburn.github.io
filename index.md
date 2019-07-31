@@ -1,4 +1,4 @@
-## Latest projects
+# Latest projects
 
 My current work focuses on improving the intelligibility of noisy speech signals using algorithms based on feed-forward and recurrent neural networks. This research has several possible applications including hearing aids, forensics, and voice communications in adverse environments. 
 
