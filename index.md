@@ -18,7 +18,7 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 
 ## Audio examples
 
-Further details of these algorithms will be published in two upcoming journal papers, and in my upcoming thesis.
+Further details of these algorithms will be published in two upcoming journal papers, and in my thesis.
 
 
 # Publications
