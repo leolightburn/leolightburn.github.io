@@ -4,7 +4,7 @@ My current work focuses on improving the intelligibility of noisy speech signals
 
 The algorithms have the structure shown below. 
 
-![Overview of a mask-based enhancer](https://leolightburn.github.io/diagram generic binary mask estimator.png)
+![Overview of a mask-based enhancer](https://leolightburn.github.io/diagrambinarymaskestimator.png.png)
 
 
 
