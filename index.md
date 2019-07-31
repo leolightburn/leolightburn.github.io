@@ -14,55 +14,15 @@ The spectrograms below show the signals labeled A, B and C in the diagram above,
 
 ![Spectrograms](https://leolightburn.github.io/SpectrogramsMaskedSpeech.png)
 
+From the spectrograms, we can see that the mask (B) captures the spectro-temporal amplitude modulation in the clean speech (the pattern of energy in the spectrogram), which is important for speech intelligibility. Compared to the noisy speech (A), the masked speech (C) has a modulation pattern which is closer to the pattern in the clean speech.
 
+#Audio examples
 
+Further details of these algorithms will be published in two upcoming journal papers, and in my upcoming thesis.
 
+##Publications
 
-
-
-
-
-
-
-
-
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/leolightburn/leolightburn.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/leolightburn/leolightburn.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* A. Moore, L. Lightburn, W. Xue, P. Naylor, and M. Brookes, “Binaural mask informed speech enhancement for hearing aids with head tracking,” in *Proc. Intl Wkshp Acoustic Signal Enhancement*, Tokyo, 2018
+* L. Lightburn, E. D. Sena, A. Moore, P. A. Naylor, and M. Brookes, “Improving the perceptual quality of ideal binary masked speech,” in *Proc. IEEE Intl. Conf. on Acoustics, Speech and Signal Processing*, 2017.
+* L. Lightburn and M. Brookes, “A weighted STOI intelligibility metric based on mutual information,” in *Proc. IEEE Intl. Conf. on Acoustics, Speech and Signal Processing*, 2016.
+* L. Lightburn and M. Brookes, “SOBM – a binary mask for noisy speech that optimises an objective intelligibility metric,” in *Proc. IEEE Intl. Conf. on Acoustics, Speech and Signal Processing*, 2015.
