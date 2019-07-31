@@ -16,11 +16,11 @@ The spectrograms below show the signals labeled A, B and C in the diagram above,
 
 From the spectrograms, we can see that the mask (B) captures the spectro-temporal amplitude modulation in the clean speech (the pattern of energy in the spectrogram), which is important for speech intelligibility. Compared to the noisy speech (A), the masked speech (C) has a modulation pattern which is closer to the pattern in the clean speech.
 
-# Audio examples
+## Audio examples
 
 Further details of these algorithms will be published in two upcoming journal papers, and in my upcoming thesis.
 
-## Publications
+# Publications
 
 * A. Moore, L. Lightburn, W. Xue, P. Naylor, and M. Brookes, [Binaural mask informed speech enhancement for hearing aids with head tracking](https://ieeexplore.ieee.org/document/8521361), in *Proc. Intl Wkshp Acoustic Signal Enhancement*, Tokyo, 2018
 * L. Lightburn, E. D. Sena, A. Moore, P. A. Naylor, and M. Brookes, [Improving the perceptual quality of ideal binary masked speech](https://ieeexplore.ieee.org/document/7952238), in *Proc. IEEE Intl. Conf. on Acoustics, Speech and Signal Processing*, 2017.
