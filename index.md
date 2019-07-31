@@ -4,6 +4,7 @@ My current work focuses on improving the intelligibility of noisy speech signals
 
 The algorithms have the structure shown below. 
 
+![Overview of a mask-based enhancer](diagram generic binary mask estimator.png)
 
 
 
