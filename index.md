@@ -14,9 +14,9 @@ In the first two (lower) blocks in the diagram, features are extracted from the 
 
 The spectrograms below show examples of a clean speech signal (top), the speech after being contaminated by noise from multiple interfering speakers (A), the mask produced by the "Estimate TF mask" block (B), and the enhanced speech (C). The labels A, B and C correspond to the labels on the diagram above.
 
-From the spectrograms, it is clear that the estimated mask (B) closely mirrors the time-frequency pattern of energy in the original clean speech.  Equivalently, the mask captures the pattern of spectro-temporal amplitude modulation in the clean speech. These modulations, which are known to be important for speech intelligibility, are then reintroduced into the noisy speech by the "Apply mask" module, resulting in an increase in predicted intelligibility. After applying the mask, the modulation pattern in the speech (C) is now much closer to the pattern in the clean speech (top).
-
 ![Spectrograms](https://leolightburn.github.io/SpectrogramsMaskedSpeech.png)
+
+From the spectrograms, it is clear that the estimated mask (B) closely mirrors the time-frequency pattern of energy in the original clean speech.  Equivalently, the mask captures the pattern of spectro-temporal amplitude modulation in the clean speech. These modulations, which are known to be important for speech intelligibility, are then reintroduced into the noisy speech by the "Apply mask" module, resulting in an increase in predicted intelligibility. After applying the mask, the modulation pattern in the speech (C) is now much closer to the pattern in the clean speech (top).
 
 The neural network is trained in a supervised manner to estimate a target mask that we [proposed in earlier work](https://ieeexplore.ieee.org/document/7178938), that is based on the clean speech signal. Our [proposed approach to applying the mask](https://ieeexplore.ieee.org/document/7952238) involves using the mask to obtain a probability distribution on the clean speech and incorporating this as prior information into a [modified speech enhancer](https://ieeexplore.ieee.org/document/1001645). 
 
