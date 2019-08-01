@@ -23,6 +23,20 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 [Clean speech](/ZZZ00005370_001_IN.mp3)
 
 
+<script src="/audiojs/audio.min.js"></script>
+
+<script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
+
+<audio src="ZZZ00005370_001_IN.mp3" preload="auto" />
+
+
+
+
+
 <iframe src="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=156534134&type=red"></iframe>
 <iframe></iframe>
 
