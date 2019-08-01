@@ -8,9 +8,9 @@ The algorithms have the structure shown below.
 
 ![Overview of a mask-based enhancer](https://leolightburn.github.io/diagrambinarymaskestimator.png)
 
-The input to the algorithm is a noisy speech signal, produced when the “clean” speech is contaminated by an interfering noise signal. This might be interference from other speakers, or from sources such as car engines, aircraft or machinery. 
+The input to the algorithm is a noisy speech signal, produced when the “clean” speech is contaminated by interfering noise. This might be interference from other speakers in a crowded room, or from sources such as car engines, aircraft or machinery. 
 
-Features are extracted from the noisy speech and passed used as inputs to a mask estimator. An example of an estimated mask is shown in (B) in the spectrogram below. The mask has 2 dimensions (time and frequency) and takes values between 0 and 1. The neural network is trained in a supervised manner to estimate a target mask that we [proposed in earlier work](https://ieeexplore.ieee.org/document/7178938). This target mask is based on the clean speech signal, which is unavailable to the mask estimation algorithm. The estimated mask is then applied to the speech in the Short-Time Fourier Transform (STFT) domain, and the signal is converted back into the time-domain. 
+Within the algorithm, features are extracted from the noisy speech and passed used as inputs to neural network, which estimates a "Time-Frequency" (TF) mask. The mask has 2 dimensions (time and frequency) and takes values between 0 and 1. An example of an estimated mask is shown in (B) in the spectrogram below. The neural network is trained in a supervised manner to estimate a target mask that we [proposed in earlier work](https://ieeexplore.ieee.org/document/7178938). This target mask is based on the clean speech signal, which is unavailable to the mask estimation algorithm. The noisy speech is then converted into the time-frequency domain using the Short-Time Fourier Transform (STFT), and estimated mask is applied to the signal. Finally, the enhanced speech is converted back into the time-domain. 
 
 The spectrograms below show the signals labeled A, B and C in the diagram above, alongside the clean speech. In this case, the interfering noise is produced by multiple simultaneous interfering speakers.
 
@@ -19,8 +19,10 @@ The spectrograms below show the signals labeled A, B and C in the diagram above,
 From the spectrograms, we can see that the mask (B) captures the spectro-temporal amplitude modulation in the clean speech (the pattern of energy in the spectrogram), which is important for speech intelligibility. Compared to the noisy speech (A), the masked speech (C) has a modulation pattern which is closer to the pattern in the clean speech.
 
 ## Neural network architectures 
-Neighbouring "frames" of speech are highly correlated in time and this can be exploited when estimating the mask.
+Neighbouring "frames" of speech are highly correlated in time and this can be exploited when estimating the mask. One approach is to 
 ...
+
+## Novel things about our approach
 
 ## Audio examples
 
