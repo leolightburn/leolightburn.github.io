@@ -34,18 +34,6 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 
 
 
-
-Ignore below here
-
-
-<iframe src="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=156534134&type=red"></iframe>
-
-
-
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
-
-
-
 ## Neural network architectures 
 From the spectrograms of speech, it can be seen that the signal in neighbouring frames (discrete points in time) is highly correlated, and this correlation can be exploited to estimate the mask more accurately. One approach is to use use "window" of features which covers several frames. This is illustrated below. Features within a sliding window (upper plot) are concatenated and used as inputs to a feed-forward neural network, which simultaneously estimates all of the mask values within another sliding window (lower plot). In frame m + 1, the windows shift forward by one frame to the position shown by the dotted line, and the procedure is repeated. This produces several mask estimates for each mask bin, which are then averaged to produced the final mask estimate. The estimation window (lower plot) is intended to improve performance by lessening the effect of individual mask estimation errors by averaging several estimates.
 
