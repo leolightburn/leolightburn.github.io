@@ -20,7 +20,6 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 
 ## Audio examples
 
-In two upcoming journal papers, and in my thesis, I will propose novel target masks, feature sets, neural network cost functions
 
 ## Neural network architectures 
 From the spectrograms of speech, it can be seen that the signal in neighbouring frames (discrete points in time) is highly correlated, and this correlation can be exploited to estimate the mask more accurately. One approach is to use use "window" of features which covers several frames. This is illustrated below. Features within a sliding window (upper plot) are concatenated and used as inputs to a feed-forward neural network, which simultaneously estimates all of the mask values within another sliding window (lower plot). In frame m + 1, the windows shift forward by one frame to the position shown by the dotted line, and the procedure is repeated. This produces several mask estimates for each mask bin, which are then averaged to produced the final mask estimate. The estimation window (lower plot) is intended to improve performance by lessening the effect of individual mask estimation errors by averaging several estimates.
@@ -30,6 +29,9 @@ From the spectrograms of speech, it can be seen that the signal in neighbouring 
 An alternative way of exploiting the correlation in the signal is to use a recurrent neural neural with Long Short-Term Memory (LSTM). A single LSTM layer or "cell" is shown below. The LSTM cell contains internal memory in the form of a cell state whose value is controlled by two gates---a forget gate and an input gate. The forget gate controls the amount of information to discard from the cell state, and the input gate controls the degree to which the cell state is updated with new values. When the forget gate is “on” and the input gate is “off”, the cell state remains unchanged over successive frames. This enables LSTMs to retain information in their memory for long periods, whichin turn enables them to model long dependencies between inputs and outputs. 
 
 ![LSTM layer](https://leolightburn.github.io/LSTMlayer.JPG)
+
+In two upcoming journal papers, and in my thesis, I will propose a novel target mask, feature set, and neural network loss function.
+
 
 # Publications
 
