@@ -20,19 +20,20 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 
 ## Audio examples
 
-<p><H3>Example 1</H3>
+<p style="line-height:0.7">
+<H3>Example 1</H3>
 Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy1.mp3">
-</audio><br style="line-height: 10px" />
+</audio><br>
 Enhanced speech
 <audio preload="auto">
     <source src="/mp3 files/MMSEMA1.mp3">
-</audio><br style="line-height: 10px" />
+</audio><br>
 Clean speech
 <audio preload="auto">
     <source src="/mp3 files/clean1.mp3">
-</audio><br style="line-height: 10px" />
+</audio><br>
 </p>
 
 ### Example 1
