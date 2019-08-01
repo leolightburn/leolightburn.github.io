@@ -94,6 +94,8 @@ An alternative way of exploiting the correlation in the signal is to use a recur
 
 ![LSTM layer](https://leolightburn.github.io/LSTMlayer.JPG)
 
+In two upcoming journal papers, and my thesis, I will investigate different choices of features sets, target masks, estimation algorithms, and methods for applying the estimated masks.
+
 <div id="div_1"></div>
 # Publications
 
