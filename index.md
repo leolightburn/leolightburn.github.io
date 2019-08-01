@@ -21,6 +21,8 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 ## Neural network architectures 
 Neighbouring "frames" of speech are highly correlated in time and this can be exploited when estimating the mask. One approach is to 
 ...
+![Sliding feature and estimation windows](https://leolightburn.github.io/slidingfeatureestimationwindow.jpg)
+
 
 ## Novel things about our approach
 
