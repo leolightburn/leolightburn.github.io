@@ -18,6 +18,7 @@ The spectrograms below show the signals labeled A, B and C in the diagram above,
 
 From the spectrograms, we can see that the mask (B) captures the spectro-temporal amplitude modulation in the clean speech (the pattern of energy in the spectrogram), which is important for speech intelligibility. Compared to the noisy speech (A), the masked speech (C) has a modulation pattern which is closer to the pattern in the clean speech.
 
+<div id="div_audio"></div>
 ## Audio examples
 <p>
 <H3>Example 1 - machinery noise</H3>
