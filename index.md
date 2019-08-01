@@ -24,15 +24,17 @@ Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy1.mp3">
 </audio>
+<br>
 Enhanced speech
 <audio preload="auto">
     <source src="/mp3 files/MMSEMA1.mp3">
 </audio>
+<br>
 Clean speech
 <audio preload="auto">
     <source src="/mp3 files/MMSEMA1.mp3">
 </audio>
-<p> </p>
+<br>
 
 ## Neural network architectures 
 From the spectrograms of speech, it can be seen that the signal in neighbouring frames (discrete points in time) is highly correlated, and this correlation can be exploited to estimate the mask more accurately. One approach is to use use "window" of features which covers several frames. This is illustrated below. Features within a sliding window (upper plot) are concatenated and used as inputs to a feed-forward neural network, which simultaneously estimates all of the mask values within another sliding window (lower plot). In frame m + 1, the windows shift forward by one frame to the position shown by the dotted line, and the procedure is repeated. This produces several mask estimates for each mask bin, which are then averaged to produced the final mask estimate. The estimation window (lower plot) is intended to improve performance by lessening the effect of individual mask estimation errors by averaging several estimates.
