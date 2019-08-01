@@ -25,12 +25,10 @@ Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy1.mp3">
 </audio>
-<br>
 Enhanced speech
 <audio preload="auto">
     <source src="/mp3 files/MMSEMA1.mp3">
 </audio>
-<br>
 Clean speech
 <audio preload="auto">
     <source src="/mp3 files/clean1.mp3">
