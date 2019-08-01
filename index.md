@@ -41,6 +41,8 @@ ZZZ00005370_001_IN.mp3?autoplay=1&loop=1&controls=0
 </pre>
 </td></tr></table>
 
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+
 
 
 ## Neural network architectures 
