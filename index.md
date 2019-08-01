@@ -52,7 +52,7 @@ Clean speech
 </p>
 
 <p>
-<H3>Example 3 - helicopter noise</H3>
+<H3>Example 3 - helicopter cockpit</H3>
 Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy3.mp3">
@@ -68,7 +68,7 @@ Clean speech
 </p>
 
 <p>
-<H3>Example 4 - aircraft noise</H3>
+<H3>Example 4 - jet aircraft noise</H3>
 Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy4.mp3">
