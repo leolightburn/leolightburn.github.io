@@ -12,7 +12,7 @@ Multiple studies have shown that, in very high levels of noise, conventional spe
 
 In the first two (lower) blocks in the diagram, features are extracted from the noisy speech and fed, as inputs, into a neural network. The neural network estimates a bounded two-dimensional quantity known as a "Time-Frequency mask". The noisy speech is then converted into the time-frequency domain using the Short-Time Fourier Transform (STFT), and estimated mask is applied to the signal. Finally, the enhanced speech is converted back into the time-domain. 
 
-The spectrograms below show an examples of a clean speech signal (top), the speech after being contaminated by noise from multiple interfering speakers (A), the mask produced by the "Estimate TF mask" block (B), and the enhanced speech (C). The labels A, B and C correspond to the labels on the diagram above.
+The spectrograms below show examples of a clean speech signal (top), the speech after being contaminated by noise from multiple interfering speakers (A), the mask produced by the "Estimate TF mask" block (B), and the enhanced speech (C). The labels A, B and C correspond to the labels on the diagram above.
 
 From the spectrograms, it is clear that the estimated mask (B) closely mirrors the time-frequency pattern of energy in the original clean speech.  Equivalently, the mask captures the pattern of spectro-temporal amplitude modulation in the clean speech, which is important for speech intelligibility. These modulations are then reintroduced into the noisy speech by the "Apply mask" module, thereby increasing its intelligibility. After applying the mask, the modulation pattern of the speech (C) is now much closer to the pattern in the clean speech.
 
