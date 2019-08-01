@@ -36,7 +36,7 @@ Clean speech
 </p>
 
 <p>
-<H3>Example 2 - babble noise (interfering speakers)</H3>
+<H3>Example 2 - babble (interfering speakers)</H3>
 Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy2.mp3">
@@ -68,7 +68,7 @@ Clean speech
 </p>
 
 <p>
-<H3>Example 4 - jet aircraft noise</H3>
+<H3>Example 4 - jet aircraft</H3>
 Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy4.mp3">
