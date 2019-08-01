@@ -10,7 +10,7 @@ The algorithms have the structure shown below.
 
 The input to the algorithm is a noisy speech signal, produced when the “clean” speech is contaminated by interfering noise. This might be interference from other speakers in a crowded room, or from sources such as car engines, aircraft or machinery. 
 
-Within the algorithm, features are extracted from the noisy speech and passed used as inputs to neural network, which estimates a "Time-Frequency" (TF) mask. The mask has 2 dimensions (time and frequency) and takes values between 0 and 1. An example of an estimated mask is shown in (B) in the spectrogram below. The neural network is trained in a supervised manner to estimate a target mask that we [proposed in earlier work](https://ieeexplore.ieee.org/document/7178938). This target mask is based on the clean speech signal, which is unavailable to the mask estimation algorithm. The noisy speech is then converted into the time-frequency domain using the Short-Time Fourier Transform (STFT), and estimated mask is applied to the signal. Finally, the enhanced speech is converted back into the time-domain. 
+Within the algorithm, features are extracted from the noisy speech and passed used as inputs to neural network, which estimates a "Time-Frequency" (TF) mask. The mask has 2 dimensions (time and frequency) and takes values between 0 and 1. An example of an estimated mask is shown in (B) in the spectrogram below. The neural network is trained in a supervised manner to estimate a target mask that we [proposed in earlier work](https://ieeexplore.ieee.org/document/7178938). This target mask is based on the clean speech signal, which is unavailable to the mask estimation algorithm. The noisy speech is then converted into the time-frequency domain using the Short-Time Fourier Transform (STFT), and estimated mask is applied to the signal. Our [proposed approach to applying the mask](https://ieeexplore.ieee.org/document/7952238) is to incorporate the mask as prior information into an [existing statistical speech enhancer](https://ieeexplore.ieee.org/document/1001645). Finally, the enhanced speech is converted back into the time-domain. 
 
 The spectrograms below show the signals labeled A, B and C in the diagram above, alongside the clean speech. In this case, the interfering noise is produced by multiple simultaneous interfering speakers.
 
@@ -18,17 +18,21 @@ The spectrograms below show the signals labeled A, B and C in the diagram above,
 
 From the spectrograms, we can see that the mask (B) captures the spectro-temporal amplitude modulation in the clean speech (the pattern of energy in the spectrogram), which is important for speech intelligibility. Compared to the noisy speech (A), the masked speech (C) has a modulation pattern which is closer to the pattern in the clean speech.
 
-## Neural network architectures 
-Neighbouring "frames" of speech are highly correlated in time and this can be exploited when estimating the mask. One approach is to 
-...
-![Sliding feature and estimation windows](https://leolightburn.github.io/slidingfeatureestimationwindow.jpg)
-
-
-## Novel things about our approach
-
 ## Audio examples
 
-Further details of these algorithms will be published in two upcoming journal papers, and in my thesis.
+In two upcoming journal papers, and in my thesis, I will propose novel target masks, feature sets, neural network cost functions
+
+## Neural network architectures 
+From the spectrograms of speech, it can be seen that the signal in neighbouring frames (discrete points in time) is highly correlated, and this correlation can be exploited to estimate the mask more accurately. One approach is to use use "window" of features which covers several frames. This is illustrated below. Features within a sliding window (upper plot) are concatenated and used as inputs to the mask estimator, which simultaneously estimates all of the mask values within another sliding window (lower plot). In frame m + 1, the windows shift forward by one frame to the position shown by the dotted line, and the procedure is repeated. This produces several mask estimates for each mask bin, which are then averaged to produced the final mask estimate. The estimation window (lower plot) is intended to improve performance by lessening the effect of individual mask estimation errors by averaging several estimates.
+
+![Sliding feature and estimation windows](https://leolightburn.github.io/slidingfeatureestimationwindow.jpg)
+
+An alternative way of exploiting the correlation in the signal is to use a recurrent neural neural with Long Short-Term Memory (LSTM). Recurrent neural networks 
+
+
+
+
+
 
 
 # Publications
