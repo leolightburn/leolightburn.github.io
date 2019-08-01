@@ -52,22 +52,6 @@ Clean speech
 </p>
 
 <p>
-<H3>Example 2</H3>
-Noisy speech
-<audio preload="auto">
-    <source src="/mp3 files/noisy2.mp3">
-</audio><br>
-Enhanced speech
-<audio preload="auto">
-    <source src="/mp3 files/MMSEMA2.mp3">
-</audio><br>
-Clean speech
-<audio preload="auto">
-    <source src="/mp3 files/clean2.mp3">
-</audio><br>
-</p>
-
-<p>
 <H3>Example 3</H3>
 Noisy speech
 <audio preload="auto">
