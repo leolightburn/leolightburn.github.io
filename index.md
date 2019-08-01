@@ -4,13 +4,13 @@ My current work focuses on improving the intelligibility of noisy speech signals
 
 In a recent project, working with colleagues in the [Speech and Audio Processing Laboratory](https://www.commsp.ee.ic.ac.uk/~sap/), we integrated a speech enhancement algorithm based on a neural network into a [proposed multiple-microphone hearing aid system](https://ieeexplore.ieee.org/document/8521361), leading to substantial improvements in predicted intelligibility in very noisy conditions.
 
-My research primarily focuses on a scenario where a speech signal has been contaminated by interfering noise signals, such as other speakers, vehicles, aircraft and machinery, and we do not have access to the original "clean" signal. The goal of our algorithm is to improve the intelligibility of the noisy speech (i.e. the percentage of words understood), as well as its quality (how pleasant the signal is to listen to).
+My research primarily focuses on a scenario where a speech signal has been contaminated by very high levels of interfering noise, resulting in a reduction in the intelligibility of the speech (the percentage of words understood). Examples of noises include other speakers, vehicles, aircraft and machinery. In this scenario, we do not have access to the original "clean" signal, and the goal of the enhancement algorithm is to improve the intelligibility of the noisy speech, as well as its quality (how pleasant the signal is to listen to). Multiple studies have shown that, in this scenario, conventional speech enhancement algorithms are typically unable to improve intelligibility.
 
-One approach is to use an algorithm with the structure shown below. 
+In recent years, however, [several studies](https://ai.google/research/pubs/pub47816) have reported promising results using algorithms with the structure shown below. 
 
 ![Overview of a mask-based enhancer](https://leolightburn.github.io/diagrambinarymaskestimator.png)
 
-The input to the algorithm is a noisy speech signal. In the first two (lower) blocks in the diagram, features are extracted from the noisy speech and fed, as inputs, into a neural network. The neural network estimates a "Time-Frequency mask", which has two dimensions (time and frequency) and is bounded between 0 and 1. 
+In the first two (lower) blocks in the diagram, features are extracted from the noisy speech and fed, as inputs, into a neural network. The neural network estimates a "Time-Frequency mask", which has two dimensions (time and frequency) and is bounded between 0 and 1. 
 
 The spectrograms below show an examples of a clean speech signal (top), the speech after being contaminated by noise from multiple interfering speakers (A), the mask produced by the "Estimate TF mask" block (B), and the enhanced speech (C). The labels A, B and C correspond to the labels on the diagram above.
 
