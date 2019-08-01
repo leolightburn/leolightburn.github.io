@@ -25,9 +25,12 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 ### Example 1
 Noisy
 <audio preload="auto">
+    <source src="/mp3 files/noisy1.mp3">
+</audio>
+Processed
+<audio preload="auto">
     <source src="/mp3 files/MMSEMA1.mp3">
 </audio>
-
 <p> </p>
 
 ## Neural network architectures 
