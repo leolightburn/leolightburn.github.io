@@ -28,7 +28,7 @@ From the spectrograms of speech, it can be seen that the signal in neighbouring 
 
 An alternative way of exploiting the correlation in the signal is to use a recurrent neural neural with Long Short-Term Memory (LSTM). A single LSTM layer or "cell" is shown below. The LSTM cell contains internal memory in the form of a cell state whose value is controlled by two gates---a forget gate and an input gate. The forget gate controls the amount of information to discard from the cell state, and the input gate controls the degree to which the cell state is updated with new values. When the forget gate is “on” and the input gate is “off”, the cell state remains unchanged over successive frames. This enables LSTMs to retain information in their memory for long periods, whichin turn enables them to model long dependencies between inputs and outputs. 
 
-![LSTM layer](https://leolightburn.github.io/LSTMlayer.JPG)
+![LSTM layer](https://leolightburn.github.io/LSTMlayer.JPG =500x)
 
 In two upcoming journal papers, and in my thesis, I will propose a novel target mask, feature set, and neural network loss function.
 
