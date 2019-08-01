@@ -24,16 +24,16 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy1.mp3">
-</audio>
+</audio><br>
 Enhanced speech
 <audio preload="auto">
     <source src="/mp3 files/MMSEMA1.mp3">
-</audio>
+</audio><br>
 Clean speech
 <audio preload="auto">
     <source src="/mp3 files/clean1.mp3">
-</audio>
-<br></p>
+</audio><br>
+</p>
 
 ### Example 1
 Noisy speech
