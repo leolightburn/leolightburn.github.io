@@ -27,18 +27,18 @@ From the spectrograms of speech, it can be seen that the signal in neighbouring 
 
 ![Sliding feature and estimation windows](https://leolightburn.github.io/slidingfeatureestimationwindow.jpg)
 
-The feed-forward neural network has the structure shown below. 
+In a feed-forward neural network (shown below), the input signal flows from the input layer, through several "hidden" layers, to an output layer.
 
 ![Feed-forward neural network](https://leolightburn.github.io/DNN.jpg)
 ![Feed-forward neural network unit](https://leolightburn.github.io/DNNnode.jpg)
 
-An alternative way of exploiting the correlation in the signal is to use a recurrent neural neural with Long Short-Term Memory (LSTM). Recurrent neural networks 
+An alternative way of exploiting the correlation in the signal is to use a recurrent neural neural with Long Short-Term Memory (LSTM). A single LSTM layer, or "cell" is shown below. The LSTM cell contains internal memory in the form of a cell state whose value is controlled by two gates--- a forget gate and an input gate. The forget gate controls the amount of information to discard from the cell state, and the input gate controls the degree to which the cell state is updated with values based on the LSTM inputs and the LSTM outputs from the previous iteration. 
 
 ![LSTM layer](https://leolightburn.github.io/LSTMlayer.jpg)
 
+When the forget gate is “on” and the input gate is “off”, the cell state remains unchanged over successive frames. This enables LSTMs to retain information in their memory for long periods, which enables them to model long dependencies between inputs and outputs. 
 
-
-
+As with feed-forward neural networks, LSTMs can be arranged in layers to enable them to model more complex functions.
 
 
 # Publications
