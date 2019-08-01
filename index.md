@@ -24,7 +24,7 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 
 ### Example 1
 Noisy
-<audio src="/mp3 files/noisy1.mp3" preload="auto" />
+<audio src="/mp3 files/noisy1.mp3" preload="auto"/>
 
 <audio src="/mp3 files/noisy2.mp3" preload="auto" />
 
