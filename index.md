@@ -25,9 +25,6 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 
 
 
-
-<script src="/audiojs/audio.min.js"></script>
-
 <script> audiojs.events.ready(function() { var as = audiojs.createAll(); }); </script>
 
 <audio src="ZZZ00005370_001_IN.mp3" preload="auto" />
