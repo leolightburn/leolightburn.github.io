@@ -23,7 +23,7 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 [Clean speech](/ZZZ00005370_001_IN.mp3)
 
 
-<iframe height="230" width="260" src="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=156534134&type=red" frameborder=0 allowfullscreen></iframe>
+<iframe src="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=156534134&type=red"></iframe>
 
 
 <table><tr><td>
