@@ -25,7 +25,7 @@ From the spectrograms, we can see that the mask (B) captures the spectro-tempora
 ### Example 1
 Noisy
 <audio preload="auto">
-    <source src="https://raw.githubusercontent.com/kolber/audiojs/master/mp3/bensound-dubstep.mp3">
+    <source src="/mp3 files/MMSEMA1.mp3">
 </audio>
 
 
