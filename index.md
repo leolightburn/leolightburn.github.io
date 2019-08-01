@@ -19,8 +19,7 @@ The spectrograms below show the signals labeled A, B and C in the diagram above,
 From the spectrograms, we can see that the mask (B) captures the spectro-temporal amplitude modulation in the clean speech (the pattern of energy in the spectrogram), which is important for speech intelligibility. Compared to the noisy speech (A), the masked speech (C) has a modulation pattern which is closer to the pattern in the clean speech.
 
 ## Audio examples
-tralalal
-<p style="line-height:0.7">
+<p>
 <H3>Example 1</H3>
 Noisy speech
 <audio preload="auto">
@@ -36,124 +35,69 @@ Clean speech
 </audio><br>
 </p>
 
-### Example 1
-Noisy speech
-<audio preload="auto">
-    <source src="/mp3 files/noisy1.mp3">
-</audio>
-<br>
-Enhanced speech
-<audio preload="auto">
-    <source src="/mp3 files/MMSEMA1.mp3">
-</audio>
-<br>
-Clean speech
-<audio preload="auto">
-    <source src="/mp3 files/clean1.mp3">
-</audio>
-<br>
-
-### Example 2
+<p>
+<H3>Example 2</H3>
 Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy2.mp3">
-</audio>
-<br>
+</audio><br>
 Enhanced speech
 <audio preload="auto">
     <source src="/mp3 files/MMSEMA2.mp3">
-</audio>
-<br>
+</audio><br>
 Clean speech
 <audio preload="auto">
     <source src="/mp3 files/clean2.mp3">
-</audio>
-<br>
+</audio><br>
+</p>
 
-### Example 3
+<p>
+<H3>Example 2</H3>
+Noisy speech
+<audio preload="auto">
+    <source src="/mp3 files/noisy2.mp3">
+</audio><br>
+Enhanced speech
+<audio preload="auto">
+    <source src="/mp3 files/MMSEMA2.mp3">
+</audio><br>
+Clean speech
+<audio preload="auto">
+    <source src="/mp3 files/clean2.mp3">
+</audio><br>
+</p>
+
+<p>
+<H3>Example 3</H3>
 Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy3.mp3">
-</audio>
-<br>
+</audio><br>
 Enhanced speech
 <audio preload="auto">
     <source src="/mp3 files/MMSEMA3.mp3">
-</audio>
-<br>
+</audio><br>
 Clean speech
 <audio preload="auto">
     <source src="/mp3 files/clean3.mp3">
-</audio>
-<br>
+</audio><br>
+</p>
 
-### Example 4
+<p>
+<H3>Example 4</H3>
 Noisy speech
 <audio preload="auto">
     <source src="/mp3 files/noisy4.mp3">
-</audio>
-<br>
+</audio><br>
 Enhanced speech
 <audio preload="auto">
     <source src="/mp3 files/MMSEMA4.mp3">
-</audio>
-<br>
+</audio><br>
 Clean speech
 <audio preload="auto">
     <source src="/mp3 files/clean4.mp3">
-</audio>
-<br>
-
-### Example 5
-Noisy speech
-<audio preload="auto">
-    <source src="/mp3 files/noisy5.mp3">
-</audio>
-<br>
-Enhanced speech
-<audio preload="auto">
-    <source src="/mp3 files/MMSEMA5.mp3">
-</audio>
-<br>
-Clean speech
-<audio preload="auto">
-    <source src="/mp3 files/clean5.mp3">
-</audio>
-<br>
-
-### Example 6
-Noisy speech
-<audio preload="auto">
-    <source src="/mp3 files/noisy6.mp3">
-</audio>
-<br>
-Enhanced speech
-<audio preload="auto">
-    <source src="/mp3 files/MMSEMA6.mp3">
-</audio>
-<br>
-Clean speech
-<audio preload="auto">
-    <source src="/mp3 files/clean6.mp3">
-</audio>
-<br>
-
-### Example 7
-Noisy speech
-<audio preload="auto">
-    <source src="/mp3 files/noisy7.mp3">
-</audio>
-<br>
-Enhanced speech
-<audio preload="auto">
-    <source src="/mp3 files/MMSEMA7.mp3">
-</audio>
-<br>
-Clean speech
-<audio preload="auto">
-    <source src="/mp3 files/clean7.mp3">
-</audio>
-<br>
+</audio><br>
+</p>
 
 
 ## Neural network architectures 
