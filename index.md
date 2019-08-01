@@ -4,9 +4,9 @@ My current work focuses on improving the intelligibility of noisy speech signals
 
 In a recent project, working with colleagues in the [Speech and Audio Processing Laboratory](https://www.commsp.ee.ic.ac.uk/~sap/), we integrated a speech enhancement algorithm based on a neural network into a [proposed multiple-microphone hearing aid system](https://ieeexplore.ieee.org/document/8521361), leading to substantial improvements in predicted intelligibility in very noisy conditions.
 
-My research primarily focuses on a scenario where a speech signal has been contaminated by very high levels of interfering noise, resulting in a reduction in the intelligibility of the speech (the percentage of words understood). Examples of noises include other speakers, vehicles, aircraft and machinery. In this scenario, we do not have access to the original "clean" signal, and the goal of the enhancement algorithm is to improve the intelligibility of the noisy speech, as well as its quality (how pleasant the signal is to listen to). Multiple studies have shown that, in this scenario, conventional speech enhancement algorithms are typically unable to improve intelligibility.
+My research is primarily focused on situations where speech has been contaminated by very high levels of interfering noise, resulting in a reduction in the intelligibility of the speech (the percentage of words understood). Examples of noises include other speakers, vehicles, aircraft and machinery. In these situations, we do not have access to the original "clean" signal, and the goal of the enhancement algorithm is to improve the intelligibility of the noisy speech, as well as its quality (how pleasant the signal is to listen to). 
 
-In recent years, however, [several studies](https://ai.google/research/pubs/pub47816) have reported promising results using algorithms with the structure shown below. 
+Multiple studies have shown that, in very high levels of noise, conventional speech enhancement algorithms are typically unable to improve intelligibility. In recent years, however, [several studies](https://ai.google/research/pubs/pub47816) have reported promising results using algorithms with the structure shown below. 
 
 ![Overview of a mask-based enhancer](https://leolightburn.github.io/diagrambinarymaskestimator.png)
 
