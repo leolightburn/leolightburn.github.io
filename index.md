@@ -10,7 +10,7 @@ In recent years, however, [several studies](https://ai.google/research/pubs/pub4
 
 ![Overview of a mask-based enhancer](https://leolightburn.github.io/diagrambinarymaskestimator.png)
 
-In the first two (lower) blocks in the diagram, features are extracted from the noisy speech and fed, as inputs, into a neural network. The neural network estimates a "Time-Frequency mask", which has two dimensions (time and frequency) and is bounded between 0 and 1. 
+In the first two (lower) blocks in the diagram, features are extracted from the noisy speech and fed, as inputs, into a neural network. The neural network estimates a bounded two-dimensional quantity known as a "Time-Frequency mask".
 
 The spectrograms below show an examples of a clean speech signal (top), the speech after being contaminated by noise from multiple interfering speakers (A), the mask produced by the "Estimate TF mask" block (B), and the enhanced speech (C). The labels A, B and C correspond to the labels on the diagram above.
 
