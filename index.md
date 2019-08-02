@@ -20,8 +20,12 @@ From the spectrograms, it is clear that the estimated mask (B) closely mirrors t
 
 The approach I am currently exploring in my research involves training a neural network to estimate a modified version of a [target mask developed earlier in my PhD](https://ieeexplore.ieee.org/document/7178938). This target mask optimises the predicted intelligibility of the binary masked speech. The predicted intelligibility is obtained using another [algorithm developed during in my PhD](https://ieeexplore.ieee.org/abstract/document/7472702). Our [proposed approach to applying the mask](https://ieeexplore.ieee.org/document/7952238) involves using the mask to obtain a probability distribution on the clean speech and incorporating this as prior information into a [modified speech enhancer](https://ieeexplore.ieee.org/document/1001645). 
 
+
+
 <div id="div_audio"></div>
 ## Audio examples
+The enhanced speech in these samples was produced using an approach (described above) developed during my PhD. 
+
 <p>
 <H3>Example 1 - machinery noise</H3>
 Noisy speech
