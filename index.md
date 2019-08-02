@@ -10,7 +10,7 @@ In very high levels of noise, conventional speech enhancement algorithms are typ
 
 ![Overview of a mask-based enhancer](https://leolightburn.github.io/diagrambinarymaskestimator.png)
 
-In the first two (lower) blocks in the diagram, features are extracted from the noisy speech and fed, as inputs, into a machine learning algorithm which estimates a bounded two-dimensional quantity known as a "Time-Frequency mask". The noisy speech is then converted into the time-frequency domain using the Short-Time Fourier Transform (STFT), and estimated mask is applied to the signal. Finally, the enhanced speech is converted back into the time-domain. 
+In the first two (lower) blocks in the diagram, features are extracted from the noisy speech and fed, as inputs, into a machine learning algorithm which estimates a bounded two-dimensional quantity known as a "Time-Frequency mask". The noisy speech is then converted into the time-frequency domain using the Short-Time Fourier Transform (STFT), and the estimated mask is applied to the signal. Finally, the enhanced speech is converted back into the time-domain. 
 
 The spectrograms below show examples of a clean speech signal (top), the speech after being contaminated by noise from multiple interfering speakers (A), the mask produced by the "Estimate TF mask" block (B), and the enhanced speech (C). The labels A, B and C correspond to the labels on the diagram above.
 
