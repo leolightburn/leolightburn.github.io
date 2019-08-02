@@ -6,7 +6,7 @@ In a recent project, working with colleagues in the [Speech and Audio Processing
 
 My research is primarily focused on situations where speech has been contaminated by very high levels of interfering noise, resulting in a reduction in the intelligibility of the speech (the percentage of words understood). Examples of noises include other speakers, vehicles, aircraft and machinery. In these situations, we do not have access to the original "clean" signal, and the goal of the enhancement algorithm is to improve the intelligibility of the noisy speech, as well as its quality (how pleasant the signal is to listen to). 
 
-Multiple studies have shown that, in very high levels of noise, conventional speech enhancement algorithms are typically unable to improve intelligibility. In recent years, however, several studies have reported promising results using algorithms with the structure shown below. 
+In very high levels of noise, conventional speech enhancement algorithms are typically unable to improve intelligibility. In recent years, however, several studies have reported promising results using algorithms with the structure shown below. 
 
 ![Overview of a mask-based enhancer](https://leolightburn.github.io/diagrambinarymaskestimator.png)
 
